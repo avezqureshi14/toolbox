@@ -200,12 +200,13 @@
     .sliderCard{
         margin-left: 1rem;
         margin-right: 1rem;    
-        width: 14rem;
-        height: 20rem;
+        width: 17rem;
+        height: 23rem;
     }
     .sliderCardSection{
-        margin: 1rem;
+        margin: 1.5rem;
     }
+
    
 }
 
@@ -229,8 +230,8 @@
     }
 
  .btn a{
-     padding-left: 1rem ;
-     padding-right: 1rem ;
+     padding-left: 0.5rem ;
+     padding-right: 0.5rem ;
  }
  .icontainer .icard{
      margin-left: 1rem;
@@ -257,6 +258,18 @@
      width: 219px;
  }
 
+
 }
 
+@media(max-width:340px){
+    .sliderCard{
+        margin-left: 1rem;
+        margin-right: 1rem;    
+        width: 14rem;
+        height: 20rem;
+    }
+    .sliderCardSection{
+        margin: 1.2rem;
+    }
+}
 
