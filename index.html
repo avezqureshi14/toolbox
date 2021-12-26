@@ -17,7 +17,16 @@
   <script src="vanilla-tilt.js"></script>
 </head>
 
-<body>
+
+<body onload="preload()" >
+  <div class="loading" id="aqloads">
+    <div class="loader">
+      <div class="prelogo"></div>
+      <h1>A</h1>
+    </div>
+    <h4>Developed by Avez Qureshi</h4>
+  </div>
+
   <div class="header">
     <button>
 
@@ -45,7 +54,7 @@
           <a href="https://avezqureshi14.github.io/avezqureshi14/" target="__blank">PORTFOLIO</a>
         </div>
 
-        <div class="ham openMenu" ><i class="fa fa-bars" style="color: #c622a4;"></i></div>
+        <div class="ham openMenu"><i class="fa fa-bars" style="color: #c622a4;"></i></div>
 
 
 
@@ -424,6 +433,8 @@
   </div>
 
 
+
+
 </body>
 
 </html>
@@ -482,6 +493,14 @@
   });
 </script>
 <script src="script.js"></script>
+<script>
+  var pre = document.getElementById("aqloads");
+  var body = document.querySelector("main")
+  function preload() {
+    pre.style.display = "none";
+    body.style.opacity = "1";
+  }
+</script>
 </body>
 
 </html>
